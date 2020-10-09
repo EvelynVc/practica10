@@ -1,0 +1,22 @@
+.papa{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.papa{
+    color: white;
+    background-color: #00446b;
+
+}
+.papa:hover{
+    color: white;
+    background-color: rgb(252, 176, 0);
+
+}
+.papa:active{
+    background-color: #ff9100;
+}
+

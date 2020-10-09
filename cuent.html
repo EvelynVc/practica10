@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="plusC.css">
+    <title>49 Valles Evelyn</title>
+    <style>
+        body{
+            font-family: Century Gothic;
+            background-color:#00446b ;
+            box-sizing:border-box ;
+        }
+        .bien{
+            font-family: Hanging Letters;
+            font-size: 85px;
+            position: absolute;
+            margin-left: 5px;
+            color:rgb(0, 172, 106);
+        }
+        form{
+            background-color: white;
+            border-radius: 10px;
+            color:blue;
+            padding: 10px;
+            width: 50%;
+            height: 20%;
+            font-size: 15px;
+            text-align: right;
+            margin-left: 25%;
+            margin-top: 5%;
+            box-shadow: grey;
+           
+        }
+        #cont{
+            width: 5%;
+            height: 8%;
+            position:absolute; 
+        }
+        #cont2{
+            position: absolute;
+            margin-left: 350px;
+
+        }
+        #info{
+            margin-top: 200px;
+            height: 10%;
+            width: 100%;
+            background-color: white;
+            font-size: 15px;
+            padding: 3%;
+            border-radius: 50px;
+        }
+        #let{
+            font-weight: 900;
+            color:#00446b ;
+        }
+     
+       input[type=radio]{
+        border: 0;
+            outline: none;
+            border-radius: 5px;
+            width: 18px;
+            height: 18px;
+            margin-top: 20px;
+            
+       }
+       
+    .dirc{
+        border: 0;
+            outline: none;
+            border-radius: 10px;
+            width: 250px;
+            height: 5px;
+            border: solid 1px rgb(0, 172, 106);
+            padding: 10px; 
+    }
+            
+       
+       
+        .dirc:focus{
+            border-color:rgb(0, 148, 20);
+        }
+        .nmap:focus{
+            border-color:rgb(0, 148, 20);
+        }
+        .center-content{
+            text-align: right;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="rec.html" class=" animated fadeInDown">
+        <div id="cont2">
+            <img src="img/Logo.jpg" class="img2" width="55%" height="115%">
+        </div>
+        <div id="cont">
+        <img class="img1" src="img/cuenta.png" width="1150%" height="1190%">
+        </div>
+        <p class="bien">Inicia Sesion</p>
+        <br>
+        <br>
+        <br>
+        <p>Numero de cuenta:</p>
+        <input type="password" class="dirc">
+        
+        <p>Numero de medidor:</p>
+        <input type="text" class="dirc" >
+
+        
+            <p>1. Tipo de servicio:<br><br>
+                <input type="radio" name="tserv" value="domestico">........................Domestico<br>
+                <input type="radio" name="tserv" value="industrial">...........................Industrial<br>
+                <input type="radio" name="tserv" value="comercial" >........................Comercial<br>
+                
+            </p>
+
+        <p>Fecha actual:</p>
+        <input type="date" class="dirc">
+
+        <p class="center-content">
+            <input type="submit" class="papa" value="Inicia sesion">
+        </p>
+    </form>
+    <div id="info">
+            <p id="let">Desarrolladora:</p>
+            <p id="nom">Valles Chavez Evelyn Yamile 5-J</p>
+            <p id=let>Contacto:</p>
+            <p id="nom">evjdhfui_jk@gmail.com</p>
+            <p id="let">Telefono:</p>
+            <p id="nom">(656)000-00-00</p>
+    </div>
+    
+    
+</body>
+</html>

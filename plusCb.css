@@ -1,0 +1,45 @@
+.papa{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.papa{
+    color: white;
+    background-color: #ee0000;
+
+}
+.papa:hover{
+    color: white;
+    background-color: rgb(204, 0, 0);
+   
+
+}
+.papa:active{
+    background-color: #882222;
+}
+.pa{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+}
+.pa{
+    color: white;
+    background-color: #3bd100;
+
+}
+.pa:hover{
+    color: white;
+    background-color: rgb(0, 160, 8);
+
+}
+.pa:active{
+    background-color: #29962a;
+
+}
